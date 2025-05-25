@@ -1,0 +1,64 @@
+ul{ 
+    max-width: 800px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    border: 1px solid #d7d7d7; 
+    border-radius: 5px; 
+} 
+ 
+h3{ 
+    font-size: 28px; 
+    color:rgb(5, 141, 95) 
+} 
+ 
+.header-container {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-container a {
+  color: #00bfff;
+  font-size: 16px;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.header-container a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  max-width: 180px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
+  margin-bottom: 10px;
+}
+ 
+ 
+.delete{ 
+    background: red; 
+} 
+ nav img {
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+li{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; 
+    margin: 20px 5px; 
+    padding: 25px; 
+    font-size: 20px; 
+    border-radius: 5px; 
+}
+nav img {
+  max-width: 150px; /* หรือปรับเป็น 100px, 200px ตามต้องการ */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* จัดรูปให้อยู่กลาง */
+}
