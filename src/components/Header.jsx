@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className="header-container">
       <img src={logo} alt="Archer" className="logo" />
-      <a href="/">Home page</a>
+      <a href="/">Home</a>
     </header>
   );
 }

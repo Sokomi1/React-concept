@@ -74,3 +74,24 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.4);
   text-align: center;
 }
+.list-group-item {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition: all 0.3s;
+}
+
+.fade-in-item {
+  animation: fadeIn 0.4s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
